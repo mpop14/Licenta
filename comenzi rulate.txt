@@ -1,0 +1,43 @@
+din folderul frontend:
+
+npx create-react-app .
+
+npm install react-router-dom
+
+npm start
+
+ctrl+c (stop)
+
+
+din folderul E-commerce:
+
+open in visual studio code
+
+din folderul backend:
+
+npm init
+
+npm install express
+
+npm install jsonwebtoken
+
+npm instal mongoose
+
+npm install multer (pentru stocarea imaginilor ce le vom uploada din admin)
+
+npm install cors (adaugam permisii aplicatiei sa fie accesata din backend)
+
+node .\index.js (pornim serverul)
+
+http://localhost:4000 (unde gasim informatiile postate de server)
+
+
+din folderul admin:
+
+npm create vite@latest . (configurare proiect)
+
+npm install (instaleaza toate dependintele)
+
+npm run dev (pentru a rula acest proiect)
+
+npm install react-router-dom

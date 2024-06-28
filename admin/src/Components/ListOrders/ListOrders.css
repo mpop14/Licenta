@@ -1,0 +1,45 @@
+.list-orders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 740px;
+    padding: 10px 50px;
+    margin: 30px;
+    border-radius: 6px;
+    background: white;
+  }
+  
+  .listorders-format-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .listorders-format {
+    align-items: center;
+    font-weight: 500;
+  }
+  
+  .listorders-view-icon, .listorders-complete-icon {
+    cursor: pointer;
+    margin: auto;
+  }
+  
+  .listorders-allorders {
+    overflow-y: auto;
+  }
+  
+  .order-items {
+    margin-top: 20px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 6px;
+    width: 100%;
+  }
+  
